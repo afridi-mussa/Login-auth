@@ -1,0 +1,123 @@
+/* Full page background */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Login card with modern glass effect */
+/* Form inside card */
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px; /* adds even spacing between inputs */
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Input fields (stay inside card) */
+.login-card input {
+  padding: 14px 16px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  box-sizing: border-box; /* ensures inputs don't overflow */
+  transition: all 0.3s ease;
+}
+
+/* Title */
+.login-card h2 {
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+}
+
+
+
+.login-card input:focus {
+  border-color: cyan;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Button */
+.login-card button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 198, 255, 0.4);
+}
+
+.login-card button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 198, 255, 0.7);
+}
+
+/* Error */
+.error {
+  color: #ff4b91;
+  margin-bottom: 15px;
+  font-size: 15px;
+  text-shadow: 0 0 6px #ff4b91;
+}
+
+/* Credentials helper box */
+.credentials-box {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  color: #eee;
+  font-size: 15px;
+  text-align: left;
+  line-height: 1.6;
+  box-shadow: 0 8px 20px rgba(0, 255, 255, 0.2);
+}
+
+.credentials-box strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #00eaff;
+}
+
+.credentials-box code {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 3px 7px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: monospace;
+  color: #00eaff;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
