@@ -6,7 +6,7 @@
 
 ## 📌 Project Description
 
-This project is a **modern login authentication system** built with React and a fake API from [ReqRes](https://reqres.in/). It demonstrates a complete authentication flow, including login with JWT tokens, protected routes, and a responsive dashboard with interactive UI components...
+This project is a **modern login authentication system** built with React and a fake API from [ReqRes](https://reqres.in/). It demonstrates a complete authentication flow, including login with JWT tokens, protected routes, and a responsive dashboard with interactive UI components
 
 The project is styled with **glassmorphism effects, gradients, and hover animations** to give a professional e-commerce dashboard feel. It is fully responsive across desktop, tablet, and mobile devices.
 
